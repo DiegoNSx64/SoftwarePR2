@@ -4,7 +4,7 @@ import json
 
 MQTT_BROKER = "mqtt.dsic.upv.es"
 MQTT_PORT = 1883
-MQTT_TOPIC = "incubadora/esp3"
+MQTT_TOPIC = "incubadora/1/101"
 
 def enviar_mensaje_mqtt():
     client = mqtt.Client(callback_api_version = mqtt.CallbackAPIVersion.VERSION2)
